@@ -41,35 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
                             Log.e("RESPONSE", jsonObject.toString());
 
-/*
-                                JSONArray jsonArray = new JSONArray(jsonObject);
-                                if (jsonArray.length() > 0) {
 
-                                    for (int j = 0; j < jsonArray.length(); j++) {
-
-                                        JSONObject jsn = jsonArray.getJSONObject(j);
-
-                                        userId = jsn.getInt("userid");
-
-                                        Intent i = new Intent(LoginActivity.this, OTPActivity.class);
-                                        i.putExtra("userid", userId);
-                                        startActivity(i);
-                                        finish();
-
-
-                                    }
-
-
-                                } else {
-                                    Toast.makeText(LoginActivity.this, "Incorrect Mobile or Email", Toast.LENGTH_SHORT).show();
-                                }*/
-
-
-                         /*   } catch (JSONException e) {
-                                e.printStackTrace();
-
-                            }
-*/
                         }
 
                         @Override
